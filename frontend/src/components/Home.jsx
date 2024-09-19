@@ -64,7 +64,7 @@ export default function Home() {
           DeadBoltt
         </animated.h1> */}
           <img
-            className="absolute top-[190px] left-[30%] w-[610px] h-[270px]"
+            className="absolute top-[190px] left-[35%] w-[610px] h-[270px]"
             src={Deadboltt}
             alt=""
           />
