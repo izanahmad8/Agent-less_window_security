@@ -6,7 +6,7 @@ import knoxx from "../assets/knoxx.png";
 import loading from "../assets/loading.gif";
 import backgroundMusic from "../assets/backgroundMusic.mp4"; // Add your music file here
 import { useSpring, animated } from "@react-spring/web";
-import Deadboltt from "../assets/Deadboltt.gif";
+import Sentinal from "../assets/sentinal.gif";
 import {
   faVolumeMute,
   faVolumeUp,
@@ -65,7 +65,7 @@ export default function Home() {
         </animated.h1> */}
           <img
             className="absolute top-[190px] left-[33%] w-[610px] h-[270px]"
-            src={Deadboltt}
+            src={Sentinal}
             alt=""
           />
 
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="w-1/2 flex flex-col">
           <h1 className="text-3xl my-4">CERTITUDE THROUGH SCRIPTING</h1>
           <p className="text-xl">
-            Deadboltt distinguishes itself through its advanced utilization of
+            Sentinal X distinguishes itself through its advanced utilization of
             scripted tools and programming, setting a new standard in securing
             user data .With a wide range of robust security measures in place,
             We are dedicated in protecting your information 24*7 which ensures
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="w-1/2 m-4">
             <h1 className="text-4xl mb-8">Top - Tier Technology</h1>
             <p className="text-xl">
-              Deadboltt detects & proves vulnerabilities with little to no
+              Sentinal X detects & proves vulnerabilities with little to no
               effort of the user. Just feed the target data it will give you all
               the details related to it without any delay with multiple scans
               and will take no time to scan user's data with all his concern and

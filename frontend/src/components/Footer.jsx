@@ -9,7 +9,7 @@ export default function Footer() {
     >
       <div className="flex justify-center items-center mb-20 flex-col">
         <h1 className="font-serif text-6xl text-white font-extrabold mb-4 mt-16">
-          DeadBoltt
+          Sentinal X
         </h1>
         <p className="tracking-[10px] font-sans">
           GUARDIANS OF THE CYBER REALM
@@ -37,7 +37,7 @@ export default function Footer() {
       </div>
       <div className="flex justify-center items-center">
         <p className="tracking-[1px] font-sans mb-8">
-          &copy;2024 Deadboltt Securities - All rights reserved
+          &copy;2024 Sentinal X Securities - All rights reserved
         </p>
       </div>
     </footer>
