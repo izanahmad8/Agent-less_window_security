@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <Video />
+      {/* <Video /> */}
       <Router>
         <Navbar />
         <Routes>
