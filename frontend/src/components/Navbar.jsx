@@ -20,24 +20,21 @@ export default function Navbar() {
             <Link className="hover:text-[#ec4e00] py-2 px-4 mx-4" to="/">
               Home
             </Link>
-            <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/about">
+            <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/">
               About
             </Link>
-            <Link
-              className=" hover:text-[#ec4e00] py-2 px-4 mx-4"
-              to="/services"
-            >
+            <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/">
               Services
             </Link>
           </>
         ) : (
-          <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/chats">
+          <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/">
             Chat
           </Link>
         )}
         {!localStorage.getItem("token") ? (
           <>
-            <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/downloads">
+            <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/">
               Download
             </Link>
             {/* <Link className=" hover:text-[#ec4e00] py-2 px-4 mx-4" to="/login">

@@ -81,7 +81,7 @@ export default function Home() {
         <div className="flex justify-center text-xl">
           <Link
             className="absolute top-[500px] text-center bg-transparent hover:bg-[#ec4e00] text-white font-semibold hover:text-white py-4 px-2 border border-white hover:border-transparent rounded"
-            to="/downloads"
+            to="/"
             style={{ width: "120px" }}
           >
             Downloads
@@ -129,7 +129,7 @@ export default function Home() {
           </p>
           <Link
             className="text-center bg-transparent hover:bg-[#ec4e00] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded my-8"
-            to="/downloads"
+            to="/"
             style={{ width: "120px" }}
           >
             Install
